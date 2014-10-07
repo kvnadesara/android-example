@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Digicorp_Components">
+
+        <!-- Custom asset font attributes -->
+
+
+        <!-- name of the font file wit extension under asset folder -->
+        <attr name="asset_font_file_name" format="string" />
+    </declare-styleable>
+
+</resources>
