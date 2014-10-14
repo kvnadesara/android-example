@@ -23,12 +23,14 @@ public class MainActivity extends ListActivity {
     private static final int EX2_CUSTOM_ASYNC_LOADER = 1;
     private static final int EX3_SHAPE_BUTTON = 2;
     private static final int EX4_CALENDAR = 3;
+    private static final int EX5_IMAGE_LAYER = 4;
 
-    private String[] exampleTitles = new String[] {
-        "Custom font TextView",
-        "Custom AsyncLoader",
-        "Shape Button",
-        "Calendar"
+    private String[] exampleTitles = new String[]{
+            "Custom font TextView",
+            "Custom AsyncLoader",
+            "Shape Button",
+            "Calendar",
+            "Image Layer"
     };
 
     private Toast toast;
@@ -83,6 +85,9 @@ public class MainActivity extends ListActivity {
             case EX4_CALENDAR:
                 Intent ex4Intent = new Intent(this, CalendarDemoActivity.class);
                 startActivity(ex4Intent);
+                break;
+            case EX5_IMAGE_LAYER:
+
                 break;
             default:
                 toast.setText("Example is under development...");
