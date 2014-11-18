@@ -7,6 +7,7 @@ import java.util.Locale;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.GridView;
@@ -15,7 +16,7 @@ import android.widget.TextView;
 
 import com.digicorp.android.researchsamples.R;
 
-public class CalendarDemoActivity extends Activity {
+public class CalendarDemoActivity extends ActionBarActivity {
 	private GridView calendar;
 	private CalendarAdapter adapter;
 	private TextView txtDate;

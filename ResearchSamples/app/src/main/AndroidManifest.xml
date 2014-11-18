@@ -50,6 +50,40 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.digicorp.android.researchsamples.MainActivity" />
         </activity>
+        <activity
+            android:name=".ex5.TestActivity"
+            android:label="@string/title_activity_test"
+            android:launchMode="singleTask"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.digicorp.android.researchsamples.MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="digicamp.com"
+                    android:scheme="https" />
+                <data
+                    android:host="digicamp.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ex6.CustomListAdapterExampleActivity"
+            android:label="@string/title_activity_custom_list_adapter_example" />
+        <activity
+            android:name=".ex7.RecycleViewDemoActivity"
+            android:label="@string/title_activity_recycle_view_demo"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.digicorp.android.researchsamples.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -2,11 +2,12 @@ package com.digicorp.android.researchsamples.ex3;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.digicorp.android.researchsamples.R;
 
-public class ShapeButtonActivity extends Activity {
+public class ShapeButtonActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

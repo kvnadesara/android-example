@@ -8,5 +8,13 @@
     <string name="title_activity_custom_async_loader">Custom AsyncLoader</string>
     <string name="title_activity_shape_button">ShapeButtonActivity</string>
     <string name="title_activity_calendar">Calendar Activity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_custom_list_adapter_example">"Custom List "</string>
+    <string name="title_activity_recycle_view_demo">Recycle View Demo</string>
+    <string name="add_item">Add Item</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="staggered_grid">Staggered Grid</string>
 
 </resources>

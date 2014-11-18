@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.digicorp.android.researchsamples.ex7.RecycleViewDemoActivity">
+    <item
+        android:id="@+id/action_add_item"
+        android:orderInCategory="100"
+        android:title="@string/add_item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_remove_item"
+        android:orderInCategory="100"
+        android:title="@string/remove_item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_linear_layout"
+        android:orderInCategory="100"
+        android:title="@string/linear_layout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_grid_layout"
+        android:orderInCategory="100"
+        android:title="@string/grid_layout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_staggered_grid"
+        android:orderInCategory="100"
+        android:title="@string/staggered_grid"
+        app:showAsAction="never" />
+</menu>
